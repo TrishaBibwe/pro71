@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span>
+        <span class="icon-bar"> </span> 
+            </button>
+            <a class="navbar-brand" href="#"> Podar International School</a>
+         </div>
+       <div class="collapse navbar-collapse" id="myNavbar"> 
+           <ul class="nav navbar-nav">
+               <li> <a href="#campus_life"> Campus Life </a></li>
+               <li> <a href="#achievements"> Achievements </a></li>
+               <li> <a href="#new"> What's New </a></li>
+               <li> <a href="#alumni"> Alumni </a></li>
+               <li> <a href="#contact_us"> Contact Us </a></li>
+            </ul>
+           </div>
+          </nav>
+          <div class="annoucement">
+            <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            Feel free to ask queries on school@gmail.com  
+            </marquee>
+             </div>
+            
+            <iframe id="video" <iframe width="900" height="506" src="https://www.youtube.com/embed/XP4byaT0kps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>" 
+
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+        </div>
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2022-2-4--11-18-43-333_footergallerysangamner04022022_3.jpg">
+                    <h4 class="text-capitalize"><kbd>music room</kbd></h4>
+                    <hr>
+                    <p class="text-muted text-left">Performing Arts is given huge importance in the curriculum. Ample opportunities are provided to the students to give expression to their imaginations. The Music room contains a variety of classical and western musical instruments.</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2022-2-4--11-19-47-215_footergallerysangamner04022022_8.jpg">
+                    <h4 class="text-capitalize"><kbd>computer lab</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <p class="text-muted text-left">Computer labs offer Internet access and computer software to students. There are about 25 computers in our lab.</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://www.podareducation.org/Uploads/Gallery/2021-12-6--12-32-10-84_footergallerychinchwad06122021_10.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>classrooms</kbd></h4>
+                    <hr>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left text-muted">The classroom provides a space where learning can take place uninterrupted by outside distractions. And are designed integratedly.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Our students were very confident in speaking and performed very well. They kept their points in the debate and won first prize.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>In this achievement thee was a big hand of the players as well as the sports coach. Th students were practicing from 2 months and finally gave their best.</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>For this one, we kept a science expo and selected the best 5 projects out of hundreds of projects. The participants worked on their project more, gave their best and secured 2nd position.
+                     </p>
+            </div>
+        </div>
+
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="new">
+            <h2 class="text-capitalize"> What's new </h2>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-items list-group-items-success col-lg-12 col-md-12 col-sm-12 col-xs-12 new_li">
+                    <h4>School Buses</h4>
+                    <img src="https://www.podareducation.org/Uploads/Gallery/2022-1-31--14-20-38-873_footergallerynanded31012022_2.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                 <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    School buses are the most preferred and frequently used transportation system of commute for the students. Even if the parents could drive their children to and from the school on their own, they choose school buses over their cars. The reason being the safety a school bus provides to the children. And so we decided to have in total 10 school buses as the number of students was so much. We want our students to have a comfortable journey from their home to school.</p>
+                </li>
+                <li class="list-group-items list-group-items-success col-lg-12 col-md-12 col-sm-12 col-xs-12 new_li">
+                    <h4>Smart Boards</h4>
+                    <img src="data:image/jpeg;base64,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" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                 <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    Many students benefit from watching interactive and educational videos over classroom lectures. With a SMART board, you can project a video, picture, website, game or educational guide on the screen to complement your daily lesson. </p>
+                </li></ul>
+       
+                <h2 class="text-capitalize">Alumni</h2>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book" id="alumni" data-toggle="modal" data-target="#school_alumni1">
+                  <img src="https://www.estrade.in/wp-content/uploads/2020/05/Screen-Shot-2020-05-21-at-10.52.03-AM_Easy-Resize.com_.jpg" class="img-responsive">
+                  <hr>
+                  <p class="text-primary"> Aditya Thackeray</p>
+                </div>
+                <div class="modal fade" id="school_alumni1">
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title"> Aditya Thackeray </h4>
+                            </div>
+                            <div class="modal-body"> 
+                                <img src="https://www.estrade.in/wp-content/uploads/2020/05/Screen-Shot-2020-05-21-at-10.52.03-AM_Easy-Resize.com_.jpg" class="img-responsive img_modal">
+                                <p class="p_modal">He is an Indian Politician serving as Cabinet Minister of Tourism and Environment Government of Maharashtra.<br>
+                                 <a href="https://en.wikipedia.org/wiki/Aaditya_Thackeray"><b> To know more </b></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 book" id="alumni" data-toggle="modal" data-target="#school_alumni2">
+                    <img src="https://m.economictimes.com/thumb/msid-90438979,width-1200,height-900,resizemode-4,imgsize-83216/vidya-balan.jpg" class="img-responsive">
+                    <hr>
+                    <p class="text-primary">Vidya Balan</p>
+                  </div>
+                  <div class="modal fade" id="school_alumni2">
+                      <div class="modal-dialog">
+  
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                  <h4 class="modal-title"> Vidya Balan </h4>
+                              </div>
+                              <div class="modal-body"> 
+                                  <img src="https://m.economictimes.com/thumb/msid-90438979,width-1200,height-900,resizemode-4,imgsize-83216/vidya-balan.jpg" class="img-responsive img_modal">
+                                  <p class="p_modal">Vidya Balan (born 1 January 1979) is an Indian actress.<br>
+                                   <a href="https://en.wikipedia.org/wiki/Vidya_Balan"><b> To know more </b></a>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+         
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+            <h2 class="text-capitalize"> Contact Us </h2>
+            </div>
+           <div id="map" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.0132274255093!2d74.21267615058626!3d19.583933986733765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd01dffb8c5de5%3A0xdbd56bfc13b70331!2sPodar%20International%20School%20Sangamner!5e0!3m2!1sen!2sin!4v1650295379775!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            
+         <div id="details"> 
+           
+            <h3>     Principal Name: </h3>
+            <h4> Mr. Nilesh Patil </h4>
+               <div class="contact_1">
+                   <a href="mailto:school@gmail.com?Subject=Hi">
+                       <h5> <i class="fa fa-envelope"> </i> &nbsp;&nbsp;mail - school@gmail.com </h5>
+                   </a> 
+                   <a href="#">
+                       <h5> <i class="fa fa-phone-square"> </i> &nbsp;&nbsp;contact no - +919916001600 </h5>
+                        </a>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
